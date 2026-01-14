@@ -15,6 +15,14 @@
         "icon": "book",
         "groups": [
           {
+            "group": "Getting Started",
+            "pages": [
+              "concourse-101/getting-started/untitled-page",
+              "concourse-101/product-overview/untitled-page",
+              "concourse-101/getting-started/untitled-page-1"
+            ]
+          },
+          {
             "group": "Getting started",
             "pages": [
               "index",

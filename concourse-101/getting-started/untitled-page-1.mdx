@@ -1,0 +1,33 @@
+---
+title: "How Concourse is different from generic chatbots / OOTB LLMs"
+---
+
+Generic chatbots are not connected to your systems of record. They do not know your chart of accounts, metrics, or business model, and they often hallucinate numbers.
+
+Instead of relying on a generic chatbot, Concourse stacks domain expertise on top of the best foundation models.
+
+We layer finance and operator‑specific knowledge, schemas, and workflows on top of state‑of‑the‑art LLMs so the AI:
+
+- Understands common finance and FP&A patterns out of the box
+- Knows how to work with real-world data structures from ERPs, CRMs, and warehouses
+- Prioritizes correctness and clarity over “creative” answers
+
+By constraining the model with finance context and your own definitions, Concourse can be both powerful and predictable.
+
+### Transparent by design
+
+Most AI tools answer in a black box. Concourse is built to show its work.
+
+When you ask a question, Concourse:
+
+- Surfaces the **agent’s reasoning steps** so you can see how it approached the problem
+- Exposes the **exact SQL queries** it runs against your data sources
+- Lets you **inspect and rerun** those queries so you can validate numbers and tweak the analysis
+
+This transparency gives finance teams confidence that:
+
+- Numbers tie back to trusted systems and auditable logic
+- You can always trace a chart or narrative back to the underlying data and query
+- Disagreements turn into concrete edits to logic or assumptions, not arguments with a black box
+
+> Add an architecture diagram here: sources → integrations → Concourse → workbooks & reports → exports.
