@@ -1,0 +1,22 @@
+---
+title: "Choose the right level of structure"
+---
+
+More structure is not always better. Use the right level of detail for what you are trying to do.
+
+- For **quick exploration and data discovery**, keep prompts fast and conversational:
+  - "Show me ARR by customer."
+  - "Which segments drove the change in gross margin last quarter?"
+
+  This gives the agent more discretion to decide what views and cuts are most useful.
+- For **repeatable analysis**, use more structured prompts but still leave room for judgment:
+  - "Break down net revenue change in Q3 vs Q2 by product line and region, and call out the top 5 drivers."
+  - "Draft a monthly close summary focused on revenue, gross margin, and opex vs budget."
+
+  These are great when you know the shape of the answer you want, but do not need every word specified.
+- For **templates and documentation-level workflows**, go fully structured:
+  - "Create a monthly revenue report with sections for: (1) summary, (2) chart of ARR by segment, (3) table of top 20 customers by change in ARR, (4) drivers analysis with 3 bullets per driver, (5) risks and follow-ups. Output in markdown that I can paste into our board deck doc."
+
+  Use this when you want something consistent and shareable that you will run many times.
+
+Overall guidance: **start simple, refine or template when needed, and only go fully structured when you want something consistent and shareable.**

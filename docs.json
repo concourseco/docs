@@ -19,7 +19,38 @@
             "pages": [
               "concourse-101/getting-started/untitled-page",
               "concourse-101/product-overview/untitled-page",
-              "concourse-101/getting-started/untitled-page-1"
+              "concourse-101/getting-started/untitled-page-1",
+              "concourse-101/getting-started/transparent-by-design"
+            ]
+          },
+          {
+            "group": "Core concepts",
+            "pages": [
+              "concourse-101/core-concepts/workbooks-1",
+              "concourse-101/core-concepts/workbooks",
+              "concourse-101/core-concepts/memories",
+              "concourse-101/core-concepts/prompt-library",
+              "concourse-101/core-concepts/integrations",
+              "concourse-101/core-concepts/exports-and-sharing"
+            ]
+          },
+          {
+            "group": "Common use cases",
+            "pages": [
+              "concourse-101/common-use-cases/monthly-close-support",
+              "concourse-101/common-use-cases/ad-hoc-analysis",
+              "concourse-101/common-use-cases/board-and-investor-reporting"
+            ]
+          },
+          {
+            "group": "Prompting best practices",
+            "pages": [
+              "concourse-101/prompting-best-practices/shape-the-output-format",
+              "concourse-101/prompting-best-practices/iterate-instead-of-over-specifying",
+              "concourse-101/prompting-best-practices/choose-the-right-level-of-structure",
+              "concourse-101/prompting-best-practices/call-out-key-definitions-and-assumptions",
+              "concourse-101/prompting-best-practices/untitled-page",
+              "concourse-101/prompting-best-practices/start-with-the-job-to-be-done"
             ]
           }
         ]
