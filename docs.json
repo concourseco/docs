@@ -17,17 +17,17 @@
           {
             "group": "Getting Started",
             "pages": [
-              "concourse-101/getting-started/untitled-page",
-              "concourse-101/product-overview/untitled-page",
-              "concourse-101/getting-started/untitled-page-1",
+              "concourse-101/getting-started/product-overview",
+              "concourse-101/product-overview/how-concourse-is-different-from-traditional-bi",
+              "concourse-101/getting-started/how-concourse-is-different-from-generic-chatbots",
               "concourse-101/getting-started/transparent-by-design"
             ]
           },
           {
             "group": "Core concepts",
             "pages": [
-              "concourse-101/core-concepts/workbooks-1",
               "concourse-101/core-concepts/workbooks",
+              "concourse-101/core-concepts/reports",
               "concourse-101/core-concepts/memories",
               "concourse-101/core-concepts/prompt-library",
               "concourse-101/core-concepts/integrations",
