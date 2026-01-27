@@ -27,6 +27,7 @@
             "group": "Core concepts",
             "pages": [
               "concourse-101/core-concepts/workbooks",
+              "concourse-101/core-concepts/report",
               "concourse-101/core-concepts/memories",
               "concourse-101/core-concepts/prompt-library",
               "concourse-101/core-concepts/integrations",
